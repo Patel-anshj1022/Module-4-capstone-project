@@ -1,28 +1,50 @@
-# Student Course Management System
+# 🎓 Student Course Management System (SCMS)
 
-## Features
-- Register students and courses
+A lightweight and powerful Python-based system for managing students, courses, and enrollments — complete with a custom-built linked list tracker and SQL database integration.
+
+---
+
+## 🚀 About the Project
+
+This system was built as a capstone project to demonstrate the use of:
+- 🔧 Object-Oriented Programming (OOP)
+- 🔗 Data structures (Linked Lists)
+- 🛢️ ORM with SQLAlchemy
+- ✅ Unit testing using Pytest
+
+It’s simple, clean, and shows how core backend components come together — perfect for learning and extending.
+
+---
+
+## 💡 Features
+
+- Add and manage students
+- Add and manage courses
 - Enroll students in courses
-- Track history with linked lists
-- Store data with SQLAlchemy ORM
-- Unit tested using Pytest
+- Track recent enrollment activity using a custom linked list
+- Data persistence with SQLite (via SQLAlchemy)
+- Easy-to-run unit tests for critical logic
 
-## Setup Instructions
+---
 
-1. Clone the repo or download files
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 📁 Project Structure
+student_course_management/
+├── database/ # SQLAlchemy DB setup
+├── linked_list/ # Custom Linked List implementation
+├── models/ # ORM models: Student, Course, Enrollment
+├── tests/ # Pytest test cases
+├── main.py # CLI-based interface
+├── requirements.txt # Dependencies
+└── README.md # You're reading it!
 
-3. Run the app:
-   ```bash
-   python main.py
-   ```
 
-4. Run unit tests:
-   ```bash
-   pytest tests/
-   ```
+---
 
-Database is stored in `students.db`.
+## ⚙️ Getting Started
+
+### 1. Clone or Download
+```bash
+git clone https://github.com/your-username/student-course-management.git
+cd student-course-management
+
+###2. Set Up Virtual Environment (recommended)
