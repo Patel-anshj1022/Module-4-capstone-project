@@ -4,10 +4,15 @@ This project showcases a structured relational database for managing a college s
 
 ## 📁 Project Structure
 college-db-capstone/
+
 ├── schema.sql # SQL script to create tables
+
 ├── data.sql # SQL script to insert mock data
+
 ├── queries.sql # Example SQL queries for analysis
+
 ├── er_diagram.png # Entity Relationship Diagram (provided separately)
+
 └── README.md # Project documentation
 
 
@@ -33,29 +38,6 @@ psql -d college_db -f data.sql
 
 4.**run sample queries**
 psql -d college_db -f queries.sql
-
-
-
-## ER diagram
-+-------------+     +--------------+     +---------------+
-|   Students  |     |  Enrollments |     |   Courses     |
-+-------------+     +--------------+     +---------------+
-| id (PK)     |<----| student_id   |     | id (PK)       |
-| name        |     | course_id    |---->| name          |
-| age         |     | semester     |     | instructor_id |
-| major       |     +--------------+     +---------------+
-+-------------+
-
-     +-------------+
-     | Instructors |
-     +-------------+
-     | id (PK)     |
-     | name        |
-     | department  |
-     +-------------+
-
-
-
 
 
 ## 📄 Description
