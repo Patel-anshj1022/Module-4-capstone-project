@@ -35,6 +35,7 @@ psql -d college_db -f data.sql
 psql -d college_db -f queries.sql
 
 
+
 ## ER diagram
 +-------------+     +--------------+     +---------------+
 |   Students  |     |  Enrollments |     |   Courses     |
@@ -52,6 +53,9 @@ psql -d college_db -f queries.sql
      | name        |
      | department  |
      +-------------+
+
+
+
 
 
 ## 📄 Description
