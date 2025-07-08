@@ -1,5 +1,7 @@
-##Project 1##
-# 🎓 Student Course Management System (SCMS)
+#Project 1
+---
+
+### 🎓 Student Course Management System (SCMS)
 
 A lightweight and powerful Python-based system for managing students, courses, and enrollments — complete with a custom-built linked list tracker and SQL database integration.
 
