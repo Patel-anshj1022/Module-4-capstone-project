@@ -55,6 +55,8 @@ cd Module-4-capstone-project
 pip install -r requirements.txt
 ```
 
+---
+
 
 Capstone Project 2: College Database Design and Queries (SQL)
 ---
