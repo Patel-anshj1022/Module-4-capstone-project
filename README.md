@@ -48,4 +48,13 @@ student_course_management/
 git clone https://github.com/Patel-anshj1022/Module-4-capstone-project.git
 cd Module-4-capstone-project
 ```
+### Download the requiremets in the txt in vs terminal
+```bash
+pip install -r requirements.txt
 
+```
+### Run the project and see the magic
+```bash
+python3main.py
+
+```
