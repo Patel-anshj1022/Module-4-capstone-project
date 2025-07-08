@@ -57,14 +57,11 @@ pip install -r requirements.txt
 ```
 ### Run the project and see the magic
 ```bash
-python3main.py
+python3 main.py
 
 ```
 
 ---
-
-
-
 
 
 Capstone Project 2: College Database Design and Queries (SQL)
