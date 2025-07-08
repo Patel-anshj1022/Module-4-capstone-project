@@ -55,7 +55,13 @@ cd Module-4-capstone-project
 ```bash
 pip install -r requirements.txt
 ```
+### Run the project and see the magic
+```bash
+python3main.py
 
+```
+
+---
 ---
 
 
@@ -138,11 +144,3 @@ college-db-capstone/
 - `queries.sql`: Provides a variety of example SQL queries, including joins, aggregations, and filters.
 - `er_diagram.png`: Visual representation of relationships among entities.
 
----
-
-```
-### Run the project and see the magic
-```bash
-python3main.py
-
-```
