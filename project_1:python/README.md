@@ -44,7 +44,16 @@ student_course_management/
 
 ### 1. Clone or Download
 ```bash
-git clone https://github.com/your-username/student-course-management.git
-cd student-course-management
+git clone https://github.com/Patel-anshj1022/Module-4-capstone-project.git
+cd Module-4-capstone-project
+```
+### Download the requiremets in the txt in vs terminal
+```bash
+pip install -r requirements.txt
 
-###2. Set Up Virtual Environment (recommended)
+```
+### Run the project and see the magic
+```bash
+python3main.py
+
+```
