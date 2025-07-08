@@ -33,13 +33,13 @@ It’s simple, clean, and shows how core backend components come together — pe
 ## 📁 Project Structure
 ```
 student_course_management/
-├── database/ # SQLAlchemy DB setup
-├── linked_list/ # Custom Linked List implementation
-├── models/ # ORM models: Student, Course, Enrollment
-├── tests/ # Pytest test cases
-├── main.py # CLI-based interface
-├── requirements.txt # Dependencies
-└── README.md # You're reading it!
+├── database/                                      # SQLAlchemy DB setup
+├── linked_list/                                   # Custom Linked List implementation
+├── models/                                        # ORM models: Student, Course, Enrollment
+├── tests/                                         # Pytest test cases
+├── main.py                                        # CLI-based interface
+├── requirements.txt                               # Dependencies
+└── README.md                                      # You're reading it!
 ```
 
 ---
